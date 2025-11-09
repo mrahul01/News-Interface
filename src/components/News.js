@@ -14,7 +14,7 @@ class News extends Component {
 
   // Fetch news when the component is mounted
   componentDidMount() {
-    const apiKey = '78b204b5634f4450a65c340e4190c800'; // Replace with your actual API key
+    const apiKey = ''; // Replace with your actual API key
     const url = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}`;
 
     axios
